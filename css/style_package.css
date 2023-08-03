@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#search{
+    /* border: 1px solid #333; */
+    margin-bottom: 20px;
+}
+#search_input{
+    /* border: 1px solid #333; */
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+#heading{
+    border: 1px solid #333;
+    font-size: 35px;
+}
+.packages{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.package_card{
+    /* margin: 20px; */
+    /* border: 1px solid #333; */
+    width: 500px;
+    height: 250px;
+    border: 1px solid #333;
+    margin: 10px;
+    
+}
+.package_card img{
+    /* border: 1px solid #333; */
+    /* position: absolute; */
+    width: 250px;
+    height: 300px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    
+}
+.btn{
+    text-decoration:underline;
+}
+.card_details{
+    /* visibility:hidden; */
+}
+.location{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.card_details a img{
+    width: 20px;
+    height: 20px;
+}
+.price{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.book{
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: rgb(183, 85, 24);
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 0;
+    margin-top: 100vh;
+    
+
+}
+footer p{
+    font-size: 14px;
+    /* height: 100vh-600px; */
+}
+
+body{
+    /* border: 2px solid red; */
+}
